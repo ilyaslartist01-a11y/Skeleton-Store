@@ -1,0 +1,6 @@
+{
+  "name": "Skeleton Store",
+  "description": "متجر Skeleton Store للأزياء المختارة واستوديو تصميم الملابس المخصصة مع التوصيل لـ 69 ولاية جزائرية وبوابة إدارة مخفية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bgCoat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#191F16"/>
+      <stop offset="100%" stop-color="#0E110C"/>
+    </linearGradient>
+    <linearGradient id="coatBody" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#22252A"/>
+      <stop offset="50%" stop-color="#17191D"/>
+      <stop offset="100%" stop-color="#101114"/>
+    </linearGradient>
+    <linearGradient id="lapelShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C3037"/>
+      <stop offset="100%" stop-color="#17191D"/>
+    </linearGradient>
+    <radialGradient id="spotCoat" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#6BB83B" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#6BB83B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgCoat)"/>
+  <rect width="800" height="1000" fill="url(#spotCoat)"/>
+  <g opacity="0.12" stroke="#F2ECE0" stroke-width="1">
+    <line x1="80" y1="70" x2="720" y2="70"/>
+    <line x1="80" y1="930" x2="720" y2="930"/>
+    <line x1="80" y1="70" x2="80" y2="930"/>
+    <line x1="720" y1="70" x2="720" y2="930"/>
+  </g>
+  <!-- Hanger hook -->
+  <path d="M400 120 C400 95 426 92 426 112 C426 125 404 132 400 148" fill="none" stroke="#C6A87D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M275 205 L400 152 L525 205" fill="none" stroke="#8C7552" stroke-width="10" stroke-linecap="round"/>
+  <!-- Coat silhouette -->
+  <path d="M268 202 L152 292 L112 612 L198 625 L235 390 L225 875 L575 875 L565 390 L602 625 L688 612 L648 292 L532 202 L456 176 L400 225 L344 176 Z" fill="url(#coatBody)" stroke="#383D45" stroke-width="3"/>
+  <!-- Inner lining & lapel -->
+  <path d="M344 176 L400 390 L456 176 L400 225 Z" fill="#101214"/>
+  <path d="M344 176 L296 290 L338 320 L314 358 L400 455 L400 390 Z" fill="url(#lapelShade)" stroke="#434852" stroke-width="2"/>
+  <path d="M456 176 L504 290 L462 320 L486 358 L400 455 L400 390 Z" fill="url(#lapelShade)" stroke="#434852" stroke-width="2"/>
+  <!-- Center placket and horn buttons -->
+  <line x1="400" y1="455" x2="400" y2="875" stroke="#2D3138" stroke-width="2.5"/>
+  <circle cx="384" cy="485" r="8" fill="#C6A87D" stroke="#0E0F12" stroke-width="2"/>
+  <circle cx="384" cy="565" r="8" fill="#C6A87D" stroke="#0E0F12" stroke-width="2"/>
+  <circle cx="384" cy="645" r="8" fill="#C6A87D" stroke="#0E0F12" stroke-width="2"/>
+  <!-- Welt pockets -->
+  <rect x="262" y="555" width="84" height="14" rx="2" fill="#2A2E35" stroke="#454B56" stroke-width="1.5"/>
+  <rect x="454" y="555" width="84" height="14" rx="2" fill="#2A2E35" stroke="#454B56" stroke-width="1.5"/>
+  <!-- Tailoring label -->
+  <text x="400" y="908" text-anchor="middle" fill="#B0B5A6" font-family="monospace" font-size="16" letter-spacing="4">ATELIER WOOL · EDITION 01</text>
+</svg>

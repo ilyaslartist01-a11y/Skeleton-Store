@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bgShirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E241A"/>
+      <stop offset="100%" stop-color="#11150F"/>
+    </linearGradient>
+    <linearGradient id="silkBody" x1="0" y1="0" x2="1" y2="0.9">
+      <stop offset="0%" stop-color="#F7F3EA"/>
+      <stop offset="55%" stop-color="#EAE3D3"/>
+      <stop offset="100%" stop-color="#D6CCB8"/>
+    </linearGradient>
+    <radialGradient id="spotShirt" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#F2ECE0" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#F2ECE0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgShirt)"/>
+  <rect width="800" height="1000" fill="url(#spotShirt)"/>
+  <g opacity="0.12" stroke="#F2ECE0" stroke-width="1">
+    <line x1="80" y1="70" x2="720" y2="70"/>
+    <line x1="80" y1="930" x2="720" y2="930"/>
+    <line x1="80" y1="70" x2="80" y2="930"/>
+    <line x1="720" y1="70" x2="720" y2="930"/>
+  </g>
+  <!-- Hanger -->
+  <path d="M400 135 C400 110 426 108 426 126 C426 140 404 146 400 164" fill="none" stroke="#6BB83B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M275 220 L400 168 L525 220" fill="none" stroke="#4D7A30" stroke-width="10" stroke-linecap="round"/>
+  <!-- Silk Shirt -->
+  <path d="M270 218 L155 292 L118 625 L196 635 L234 405 L242 840 C340 865 460 865 558 840 L566 405 L604 635 L682 625 L645 292 L530 218 L452 192 L400 232 L348 192 Z" fill="url(#silkBody)" stroke="#C2B8A3" stroke-width="3"/>
+  <!-- Collar -->
+  <path d="M348 192 L400 232 L452 192 L438 168 L362 168 Z" fill="#D5CCB8"/>
+  <path d="M348 192 L322 252 L396 248 Z" fill="#FAF7F0" stroke="#C5BBA7" stroke-width="2"/>
+  <path d="M452 192 L478 252 L404 248 Z" fill="#FAF7F0" stroke="#C5BBA7" stroke-width="2"/>
+  <!-- Placket & mother-of-pearl buttons -->
+  <rect x="392" y="232" width="16" height="624" fill="#EFE9DA" stroke="#CEC4B0" stroke-width="1.5"/>
+  <circle cx="400" cy="285" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <circle cx="400" cy="365" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <circle cx="400" cy="445" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <circle cx="400" cy="525" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <circle cx="400" cy="605" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <circle cx="400" cy="685" r="5" fill="#FFFFFF" stroke="#B6AB95" stroke-width="1.5"/>
+  <!-- Cuffs -->
+  <path d="M118 602 L196 612 L196 635 L118 625 Z" fill="#EFE8D8" stroke="#C2B8A3" stroke-width="2"/>
+  <path d="M682 602 L604 612 L604 635 L682 625 Z" fill="#EFE8D8" stroke="#C2B8A3" stroke-width="2"/>
+  <!-- Subtle silk drape lines -->
+  <path d="M295 360 Q315 540 298 760" fill="none" stroke="#D2C7B2" stroke-width="2" opacity="0.6"/>
+  <path d="M505 360 Q485 540 502 760" fill="none" stroke="#D2C7B2" stroke-width="2" opacity="0.6"/>
+  <text x="400" y="908" text-anchor="middle" fill="#B0B5A6" font-family="monospace" font-size="16" letter-spacing="4">IVORY MULBERRY SILK · EDITION 02</text>
+</svg>

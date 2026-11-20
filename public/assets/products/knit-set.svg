@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bgKnit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C2119"/>
+      <stop offset="100%" stop-color="#0F130D"/>
+    </linearGradient>
+    <linearGradient id="knitSweater" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#3F4B3B"/>
+      <stop offset="50%" stop-color="#2D362A"/>
+      <stop offset="100%" stop-color="#20271E"/>
+    </linearGradient>
+    <linearGradient id="knitPants" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#262A24"/>
+      <stop offset="100%" stop-color="#171A16"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgKnit)"/>
+  <g opacity="0.12" stroke="#F2ECE0" stroke-width="1">
+    <line x1="80" y1="70" x2="720" y2="70"/>
+    <line x1="80" y1="930" x2="720" y2="930"/>
+    <line x1="80" y1="70" x2="80" y2="930"/>
+    <line x1="720" y1="70" x2="720" y2="930"/>
+  </g>
+  <!-- Cashmere Knit Sweater -->
+  <path d="M270 185 L155 262 L132 505 L208 512 L242 325 L245 535 L555 535 L558 325 L592 512 L668 505 L645 262 L530 185 L458 158 C430 182 370 182 342 158 Z" fill="url(#knitSweater)" stroke="#53634D" stroke-width="3"/>
+  <!-- Ribbed Collar & Hem -->
+  <path d="M342 158 C370 182 430 182 458 158 L448 136 C420 156 380 156 352 136 Z" fill="#2A3327" stroke="#53634D" stroke-width="2"/>
+  <rect x="245" y="510" width="310" height="25" fill="#242C21" stroke="#53634D" stroke-width="1.5"/>
+  <!-- Fine cable texture -->
+  <g stroke="#4E5E49" stroke-width="2" opacity="0.45">
+    <line x1="330" y1="220" x2="330" y2="500"/>
+    <line x1="400" y1="205" x2="400" y2="500"/>
+    <line x1="470" y1="220" x2="470" y2="500"/>
+  </g>
+  <!-- Tailored Trousers below -->
+  <path d="M278 560 L522 560 L548 865 L438 865 L400 660 L362 865 L252 865 Z" fill="url(#knitPants)" stroke="#444A40" stroke-width="2.5"/>
+  <rect x="278" y="560" width="244" height="26" fill="#2F342C" stroke="#4D5449" stroke-width="1.5"/>
+  <line x1="322" y1="595" x2="305" y2="855" stroke="#363B33" stroke-width="2"/>
+  <line x1="478" y1="595" x2="495" y2="855" stroke="#363B33" stroke-width="2"/>
+  <text x="400" y="908" text-anchor="middle" fill="#B0B5A6" font-family="monospace" font-size="16" letter-spacing="4">CASHMERE KNIT SET · EDITION 03</text>
+</svg>
